@@ -1,0 +1,58 @@
+#mynavbar {
+  background-color: #3B7BD9;
+  border-radius: 5px;
+}
+
+#mynavbar li a {
+  color: whitesmoke;
+}
+
+#mynavbar li a:hover {
+  background-color: whitesmoke;
+  color: #3B7BD9;
+}
+main {
+   background-color: black;
+   text-align: center;
+   padding: 30px;
+   text-decoration: none;
+   color: #43B8F7;
+}
+header, footer {
+  background-color: #3B7BD9;
+  color: whitesmoke;
+  text-align: center;
+  padding: 5px;
+}
+body {
+  color: black;
+}
+nav {
+  color: black;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+section {
+  padding: 20px;
+  background-color: #43B8F7;
+  color: black;
+  text-align: center;
+}
+/* unvisited link */
+a:link {
+  color: white;
+}
+/* visited link */
+a:visited {
+  color: #9F9DC0;
+}
+/* mouse over link */
+a:hover {
+  color: #C8E5FA;
+}
+/* selected link */
+a:active {
+  color: #9F9DC0;
+}
